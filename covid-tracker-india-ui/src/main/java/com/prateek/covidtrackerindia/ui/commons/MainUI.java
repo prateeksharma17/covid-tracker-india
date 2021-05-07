@@ -37,9 +37,9 @@ public class MainUI extends UI{
 		rootLayout.setMargin(true);
 		
 		Panel logoPanel = new Panel();
-		logoPanel.setWidth("38%");
-		logoPanel.setHeightUndefined();		
-		
+		logoPanel.setWidth("75%");
+		logoPanel.setHeightUndefined();	
+				
 		Panel contentPanel = new Panel();
 		contentPanel.setWidth("75%");
 		contentPanel.setHeight("100%");

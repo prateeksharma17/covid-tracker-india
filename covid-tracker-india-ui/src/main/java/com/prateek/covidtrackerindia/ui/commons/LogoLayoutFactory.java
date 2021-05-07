@@ -17,8 +17,8 @@ public class LogoLayoutFactory implements UIComponentBuilder{
 		
 		public LogoLayout init() {
 			logo = new Embedded();
-			logo.setSource(new ThemeResource("../../images/logo.png"));
-			logo.setWidth("498px");
+			logo.setSource(new ThemeResource("../../images/title.png"));
+			logo.setWidth("950px");
 			logo.setHeight("241px");			
 			return this;
 		}
